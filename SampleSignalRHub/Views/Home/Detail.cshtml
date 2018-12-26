@@ -1,0 +1,33 @@
+﻿@model SampleRabbitMQData.Notification
+
+
+<head>
+    <script src="~/scripts/signalr.min.js"></script>
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/notificationhub", { transport: signalR.HttpTransportType.LongPolling })
+        .build();
+
+        connection.on('SetConnectionId', data => {
+            console.log("ConnectionID : " + data);
+            var result = connection.invoke('ConnectGroup', '@Model.Name', data);
+            console.log(result);
+
+        });
+
+        connection.on('ChangeValue', data => {
+            console.log(JSON.stringify(data));
+            alert("New Price : " + data.value + " ");
+            document.getElementById("stocValue").innerHTML = data.value;
+        });
+
+        connection.start().catch(err => console.error(err.toString()));
+
+    </script>
+</head>
+
+<div class="container">
+    <div class="jumbotron">
+        <h3>Alınan = @Model.Name : <span id="stocValue">@Model.Value</span> ₺</h3>
+    </div>
+</div>

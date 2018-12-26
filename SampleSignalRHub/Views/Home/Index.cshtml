@@ -1,0 +1,20 @@
+﻿@model List<SampleRabbitMQData.Notification>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using(Html.BeginForm("Detail","Home","FormMethod.Post"))
+{
+    @foreach(var notification in Model)
+    {
+        <div class="radio">
+            <label for="female" style="width : 125px">
+            <input type="radio" name="ID" id="ID" value="@notification.ID">@notification.Name
+            </label>
+            <b>Fiyat</b> : <label>@notification.Value</label>
+        </div>
+    }
+    <br>
+    <input type="submit" value="Satın Al" class="btn btn-success">
+}
+
