@@ -1,8 +1,3 @@
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.csproj.CoreCompileInputs.cache
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.RazorAssemblyInfo.cache
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.RazorAssemblyInfo.cs
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.AssemblyInfoInputs.cache
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.AssemblyInfo.cs
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.deps.json
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.runtimeconfig.json
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.runtimeconfig.dev.json
@@ -10,6 +5,13 @@
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.pdb
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.Views.dll
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQAdmin.Views.pdb
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQData.dll
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQData.pdb
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.csproj.CoreCompileInputs.cache
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.RazorAssemblyInfo.cache
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.RazorAssemblyInfo.cs
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.AssemblyInfoInputs.cache
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.AssemblyInfo.cs
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.TagHelpers.input.cache
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.TagHelpers.output.cache
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.RazorCoreGenerate.cache
@@ -26,6 +28,4 @@
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.dll
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.pdb
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.csproj.CopyComplete
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQData.dll
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/bin/Debug/netcoreapp2.1/SampleRabbitMQData.pdb
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.csprojResolveAssemblyReference.cache
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/obj/Debug/netcoreapp2.1/SampleRabbitMQAdmin.csprojAssemblyReference.cache

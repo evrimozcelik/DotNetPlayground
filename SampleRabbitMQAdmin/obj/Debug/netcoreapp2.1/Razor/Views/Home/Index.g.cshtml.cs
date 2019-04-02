@@ -88,7 +88,7 @@ using SampleRabbitMQAdmin.Models;
             WriteLiteral("                ");
             EndContext();
             BeginContext(678, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a58478f2bb74015bf5b2b6029ded209", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29ece4fef3274b74b27ebf9a0c348d1a", async() => {
                 BeginContext(764, 17, false);
 #line 22 "/Users/Evrim/git/DotNetPlayground/SampleRabbitMQAdmin/Views/Home/Index.cshtml"
                                                                                                 Write(notification.Name);

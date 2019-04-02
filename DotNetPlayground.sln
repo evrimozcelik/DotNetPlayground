@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSignalRHub", "SampleS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRabbitMQData", "SampleRabbitMQData\SampleRabbitMQData.csproj", "{93F4DD16-7CD4-4F47-8BDC-4CF79A0F07A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClientPerformance", "RabbitMQClientPerformance\RabbitMQClientPerformance.csproj", "{473F9B59-4555-42B0-943D-F7FDF66E27B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFundamentals", "RESTFundamentals\RESTFundamentals.csproj", "{7B1A1D4E-A27B-4A52-8DA5-89C72266C55C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +35,13 @@ Global
 		{93F4DD16-7CD4-4F47-8BDC-4CF79A0F07A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F4DD16-7CD4-4F47-8BDC-4CF79A0F07A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F4DD16-7CD4-4F47-8BDC-4CF79A0F07A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473F9B59-4555-42B0-943D-F7FDF66E27B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473F9B59-4555-42B0-943D-F7FDF66E27B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473F9B59-4555-42B0-943D-F7FDF66E27B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473F9B59-4555-42B0-943D-F7FDF66E27B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1A1D4E-A27B-4A52-8DA5-89C72266C55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1A1D4E-A27B-4A52-8DA5-89C72266C55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1A1D4E-A27B-4A52-8DA5-89C72266C55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1A1D4E-A27B-4A52-8DA5-89C72266C55C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

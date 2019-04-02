@@ -6,4 +6,4 @@
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.AssemblyInfo.cs
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.dll
 /Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.pdb
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.csprojResolveAssemblyReference.cache
+/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.csprojAssemblyReference.cache

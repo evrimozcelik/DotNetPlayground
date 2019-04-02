@@ -29,4 +29,3 @@
 /Users/Evrim/git/DotNetPlayground/DefaultRedisSession.Web/obj/Debug/netcoreapp2.1/DefaultRedisSession.Web.dll
 /Users/Evrim/git/DotNetPlayground/DefaultRedisSession.Web/obj/Debug/netcoreapp2.1/DefaultRedisSession.Web.pdb
 /Users/Evrim/git/DotNetPlayground/DefaultRedisSession.Web/obj/Debug/netcoreapp2.1/DefaultRedisSession.Web.csproj.CopyComplete
-/Users/Evrim/git/DotNetPlayground/DefaultRedisSession.Web/obj/Debug/netcoreapp2.1/DefaultRedisSession.Web.csprojResolveAssemblyReference.cache
