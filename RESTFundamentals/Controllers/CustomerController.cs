@@ -58,10 +58,20 @@ namespace RESTFundamentals.Controllers
                 return BadRequest(ModelState);
             }
 
-            var query = _dbContext.Customers.Select(c => c.CustomerID == customer.CustomerID);
+            if(customer == null)
+            {
+                return BadRequest("Customer data is empty");
+            }
+
+            if (customer.CustomerID == null || customer.CustomerID?.Length == 0)
+            {
+                return BadRequest("Customer ID is empty");
+            }
+
+            var query = _dbContext.Customers.Where(c => c.CustomerID == customer.CustomerID);
             if (query.Any())
             {
-                return BadRequest("Customer ID exists");
+                return BadRequest("Customer exists");
             }
 
             var customerEntity = Mapper.Map<Customer, CustomerEntity>(customer);
@@ -83,6 +93,16 @@ namespace RESTFundamentals.Controllers
                 return BadRequest(ModelState);
             }
 
+            if (customer == null)
+            {
+                return BadRequest("Customer data is empty");
+            }
+
+            if (customerId == null || customerId?.Length == 0)
+            {
+                return BadRequest("Customer ID is empty");
+            }
+
             var customerEntity = await _dbContext.Customers.Where(c => c.CustomerID == customerId).FirstOrDefaultAsync<CustomerEntity>();
 
             if (customerEntity == null)
@@ -90,8 +110,9 @@ namespace RESTFundamentals.Controllers
                 return NotFound();
             }
 
+            customer.CustomerID = customerId;
+
             Mapper.Map<Customer, CustomerEntity>(customer,customerEntity);
-            customerEntity.CustomerID = customerId;
             await _dbContext.SaveChangesAsync();
 
             return Json(customer);
