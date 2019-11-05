@@ -88,7 +88,7 @@ namespace RESTFundamentals
         }
 
         private static void SeedTestData(SampleDBContext dbContext)
-        {
+        { 
             var customerEntityList = new List<CustomerEntity>()
             {
                 new CustomerEntity {Id = Guid.NewGuid(), CustomerID = "C001", FirstName = "Ned", LastName = "Stark", DateOfBirth = new DateTime(2417,1,18) },
