@@ -1,9 +1,0 @@
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/bin/Debug/netcoreapp2.1/SampleRabbitMQData.deps.json
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/bin/Debug/netcoreapp2.1/SampleRabbitMQData.dll
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/bin/Debug/netcoreapp2.1/SampleRabbitMQData.pdb
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.csproj.CoreCompileInputs.cache
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.AssemblyInfoInputs.cache
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.AssemblyInfo.cs
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.dll
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.pdb
-/Users/Evrim/git/DotNetPlayground/SampleRabbitMQData/obj/Debug/netcoreapp2.1/SampleRabbitMQData.csprojAssemblyReference.cache
