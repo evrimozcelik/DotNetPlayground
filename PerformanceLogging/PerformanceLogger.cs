@@ -30,9 +30,21 @@ namespace PerformanceLogging
             _logger = logger;
         }
 
+        public void Start()
+        {
+            _sw.Start();
+        }
+
+        public void Stop()
+        {
+            _sw.Stop();
+        }
+
         public void LogElapsedTime(string action="")
         {
-            _logger.LogInformation($"Class: {typeof(T)}, Action: {action}, ElapsedTime: {_sw.ElapsedMilliseconds}");
+            var sourceClass = typeof(T);
+            var elapsedTime = _sw.ElapsedMilliseconds;
+            _logger.LogInformation("SourceClass: {SourceClass}, Action: {Action}, ElapsedTime: {ElapsedTime}", sourceClass, action, elapsedTime);
         }
 
 
