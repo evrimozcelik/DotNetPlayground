@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyModule", "MyModule\MyModule.csproj", "{23C10BBE-CA64-43A5-BAA8-61FA40A3B816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi", "..\..\My Solution2\MyApp\MyApi\MyApi.csproj", "{BAD059C5-4750-4B42-A571-61FC07B89379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23C10BBE-CA64-43A5-BAA8-61FA40A3B816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C10BBE-CA64-43A5-BAA8-61FA40A3B816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C10BBE-CA64-43A5-BAA8-61FA40A3B816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C10BBE-CA64-43A5-BAA8-61FA40A3B816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD059C5-4750-4B42-A571-61FC07B89379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD059C5-4750-4B42-A571-61FC07B89379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD059C5-4750-4B42-A571-61FC07B89379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD059C5-4750-4B42-A571-61FC07B89379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
